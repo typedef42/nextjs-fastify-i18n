@@ -17,7 +17,7 @@
     "type": "git",
     "url": "git+https://github.com/typedef42/nextjs-fastify-i18n.git"
   },
-  "author": "",
+  "author": "Yannis Torres",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/typedef42/nextjs-fastify-i18n/issues"
