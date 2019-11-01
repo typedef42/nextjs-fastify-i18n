@@ -5,6 +5,8 @@ You can find a articles that talk about that here :
 
 # installation
 
+```shell
 npm install
 npm run generate-certs
 npm run dev
+```
