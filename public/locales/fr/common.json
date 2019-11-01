@@ -1,0 +1,37 @@
+{
+  "nav": {
+    "item1": "Accueil",
+    "item2": "A Propos"
+  },
+  "about": {
+    "text": "voila une seconde page toute simple sans components."
+  },
+  "banner": {
+    "subtitle": "Cette app montre comment gérer la traduction avec next, en utilisant react context API pour mémoriser la languer utilisateur, et dans une lib qui nécessite d'etre mise a jour depuis le code",
+    "button": "Ne fait rien",
+    "jumbotron": {
+      "p1": "Ceci est un texte dynamique traduit",
+      "p2": "Wow, j'aime les pattates",
+      "p3": "Et aussi typed.js",
+      "p4": "Rien de plus à ajouter"
+    }
+  },
+  "cards": {
+    "c1": {
+      "title": "Du vin",
+      "text": "Voila un texte d'exemple en francais plus ou moins correcte.",
+      "button": "Ne fait rien"
+    },
+    "c2": {
+      "title": "De la lavande",
+      "text": "Voila un texte d'exemple en francais plus ou moins correcte.",
+      "button": "Ne fait rien"
+    },
+    "c3": {
+      "title": "La mer",
+      "text": "Voila un texte d'exemple en francais plus ou moins correcte.",
+
+      "button": "Ne fait rien"
+    }
+  }
+}

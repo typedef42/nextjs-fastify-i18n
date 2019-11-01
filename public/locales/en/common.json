@@ -1,0 +1,36 @@
+{
+  "nav": {
+    "item1": "Home",
+    "item2": "About"
+  },
+  "about": {
+    "text": "Here is a second very simple page, without components."
+  },
+  "banner": {
+    "subtitle": "This app show how to handle translation with next, react context API to memorize user language, and text lib that require code triggers as language change.",
+    "button": "Does nothing",
+    "jumbotron": {
+      "p1": "This is a dynamic translated text",
+      "p2": "Wow, I love potatoes",
+      "p3": "And also typed.js",
+      "p4": "Nothing more to add"
+    }
+  },
+  "cards": {
+    "c1": {
+      "title": "Some wine",
+      "text": "This is some random text in more or less good english",
+      "button": "Does nothing"
+    },
+    "c2": {
+      "title": "Some lavender",
+      "text": "This is some random text in more or less good english",
+      "button": "Does nothing"
+    },
+    "c3": {
+      "title": "The sea",
+      "text": "This is some random text in more or less good english",
+      "button": "Does nothing"
+    }
+  }
+}
