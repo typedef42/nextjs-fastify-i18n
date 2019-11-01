@@ -63,7 +63,9 @@ class Banner extends Component {
         </h1>
         <p>{this.props.t("common:banner.subtitle")}</p>
         <p>
-          <Button variant="primary">{this.props.t("common:banner.button")}</Button>
+          <Button variant="primary" href="http://www.hooli.xyz/">
+            {this.props.t("common:banner.button")}
+          </Button>
         </p>
       </Jumbotron>
     );
