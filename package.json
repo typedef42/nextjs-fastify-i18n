@@ -1,0 +1,44 @@
+{
+  "name": "nextjs-fastify-i18n",
+  "version": "1.0.0",
+  "description": "Example of i18n with fastify and next.js",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development node server.js",
+    "build": "next build",
+    "export": "next export",
+    "clean": "cross-env rimraf ./.next ./out",
+    "release": "cross-env NODE_ENV=production npm run clean && npm run build && npm run export",
+    "start": "next start",
+    "stage": "cross-env NODE_ENV=production node server.js",
+    "generate-certs": "openssl req -x509 -days 365 -newkey rsa:2048 -nodes -sha256 -keyout certs/privateKey.key -out certs/certificate.crt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/typedef42/nextjs-fastify-i18n.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/typedef42/nextjs-fastify-i18n/issues"
+  },
+  "homepage": "https://github.com/typedef42/nextjs-fastify-i18n#readme",
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "eventemitter3": "^4.0.0",
+    "fastify": "^2.10.0",
+    "fastify-nextjs": "^4.1.1",
+    "fastify-static": "^2.5.0",
+    "i18next": "^19.0.0",
+    "next": "^9.1.2",
+    "next-i18next": "^2.0.0",
+    "react": "^16.8.6",
+    "react-bootstrap": "^1.0.0-beta.14",
+    "react-dom": "^16.8.6",
+    "react-typed": "^1.2.0"
+  },
+  "devDependencies": {
+    "cross-env": "^6.0.3",
+    "rimraf": "^3.0.0"
+  }
+}
