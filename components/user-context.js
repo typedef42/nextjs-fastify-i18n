@@ -32,30 +32,18 @@ export class UserProvider extends React.Component {
   componentDidMount() {
     const defaultLang = this.detectBrowserlanguage("en");
     const lang = localStorage.getItem("user-lang");
+    const usedLang = lang ? lang : defaultLang;
 
-    if (lang) {
-      this.setState(
-        {
-          lang
-        },
-        () => {
-          i18n.changeLanguage(this.state.lang, () => {
-            this.lnNotifier.emit("langChanged");
-          });
-        }
-      );
-    } else {
-      this.setState(
-        {
-          lang: defaultLang
-        },
-        () => {
-          i18n.changeLanguage(this.state.lang, () => {
-            this.lnNotifier.emit("langChanged");
-          });
-        }
-      );
-    }
+    this.setState(
+      {
+        lang: usedLang
+      },
+      () => {
+        i18n.changeLanguage(this.state.lang, () => {
+          this.lnNotifier.emit("langChanged");
+        });
+      }
+    );
   }
 
   toggleLang() {
